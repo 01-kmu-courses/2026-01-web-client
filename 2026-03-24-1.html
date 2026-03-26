@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My First Web</title>
+    <link rel="stylesheet" href="./assets/css/body.css">
+</head>
+
+<body>
+    <div>
+        <form action="#" method="post">
+            <div>
+                <input type="text" name="id" id="id" placeholder="id" required>
+            </div>
+            <div>
+                <input type="pw" name="pw" id="pw" placeholder="pw" required>
+            </div>
+            <div>
+                <input type="email" name="email" id="email" placeholder="example@example.com" required>
+            </div>        
+    
+            <div>
+                <input type="number" min="0" max="100" name="number" id="number" placeholder="0~100">
+            </div>
+    
+            <div>
+                <input type="tel" name="tel" id="tel" placeholder="010-xxxx-xxxx">
+            </div>
+    
+            <div>
+                <label for="date">date</label>
+                <input type="date" name="date" id="date">
+            </div>
+    
+            <div>
+                <label for="file">file</label>
+                <input type="file" name="file" id="file">
+            </div>
+    
+            <div>
+                <label for="session">session</label>
+                <input type="hidden" name="session" id="session" value="client" readonly>
+            </div>
+    
+            <button type="submit">login</button>
+        </form>
+    </div>
+
+    <div>
+        <p>food</p>
+        <input type="checkbox" name="food" id="pizza">
+        <label for="pizza">pizza</label>
+        <input type="checkbox" name="food" id="burger" checked>
+        <label for="burger">burger</label>
+        <input type="checkbox" name="food" id="chicken">
+        <label for="chicken">chicken</label>
+    </div>
+
+    <div>
+        <label for="browser">Browsers</label>
+        <input id="browser" name="browser" list="browsers" type="text">
+    
+        <datalist id="browsers">
+            <option value="Chrome">
+            <option value="Firefox">
+            <option value="Safari">
+            <option value="Edge">
+        </datalist>
+    </div>
+
+    <div>
+        <p>gender</p>
+        <input type="radio" name="gender" id="male">
+        <label for="male">male</label>
+        <input type="radio" name="gender" id="female">
+        <label for="female">female</label>
+        <input type="radio" name="gender" id="none">
+        <label for="none">none</label>
+    </div>
+
+    <div>
+        <p>city</p>
+        <select name="city" id="city">
+            <option value="" disabled>-- select --</option>
+            <option value="seoul">seoul</option>
+            <option value="busan">busan</option>
+            <optgroup label="gyeonggydo">
+                <option value="paju">paju</option>
+                <option value="dongducheon">dongducheon</option>
+                <option value="pocheon">pocheon</option>
+            </optgroup>
+        </select>
+    </div>
+</body>
+
+</html>
