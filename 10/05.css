@@ -1,0 +1,15 @@
+/* 각각 따로 쓰면 */
+h1 { color: #2e74b5; }
+h2 { color: #2e74b5; }
+h3 { color: #2e74b5; }
+
+/* 콤마로 묶으면 */
+h1, h2, h3 {
+  color: #2e74b5;
+  font-weight: 700;
+}
+
+/* 클래스, 타입 혼합도 가능 */
+h1, .subtitle, #main-text {
+  font-family: Arial, sans-serif;
+}

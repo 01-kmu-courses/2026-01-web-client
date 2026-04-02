@@ -1,0 +1,16 @@
+li:first-child {
+  font-weight: 700;
+  color: #1f3864;
+}
+li:last-child {
+  color: #aaa;
+}
+li:nth-child(2) {
+  color: #2e74b5;
+}
+li:nth-child(odd) {
+  background: #f0f4ff;
+}
+li:nth-child(even) {
+  background: #fff;
+}

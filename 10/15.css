@@ -1,0 +1,13 @@
+.tag {
+  display: inline;
+  background: #6aab6a;
+  color: #fff;
+  padding: 4px 10px;
+  border-radius: 12px;
+}
+
+/* width 설정해도 무시됨 */
+.tag {
+  width: 200px; /* 적용 안됨 */
+  height: 50px; /* 적용 안됨 */
+}

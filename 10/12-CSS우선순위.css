@@ -1,0 +1,17 @@
+/* 점수: 1 */
+p { color: black; }
+
+/* 점수: 10 */
+.text { color: blue; }
+
+/* 점수: 100 */
+#title { color: green; }
+
+/* 점수: 110 (100+10) */
+#title .text { color: purple; }
+
+/* 점수: 1000 */
+/* <p style="color: red"> */
+
+/* 최우선 */
+p { color: pink !important; }

@@ -1,0 +1,11 @@
+.box {
+  background: #2e74b5;
+  color: #fff;
+  padding: 12px;
+  margin-bottom: 8px;
+  border-radius: 6px;
+}
+
+.hidden {
+  display: none;
+}
