@@ -1,0 +1,14 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  /* row (기본값)
+     row-reverse
+     column
+     column-reverse */
+}
+.item {
+  background: #2e74b5;
+  color: #fff;
+  padding: 10px 18px;
+  font-weight: 700;
+}

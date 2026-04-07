@@ -1,0 +1,19 @@
+.header {
+  position: sticky;
+  top: 0; /* 반드시 써야 동작 */
+  background: #1f3864;
+  color: #fff;
+  padding: 14px;
+  z-index: 100;
+}
+.fab {
+  position: fixed;
+  bottom: 24px;
+  right: 24px;
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background: #2e74b5;
+  color: #fff;
+  border: none;
+}

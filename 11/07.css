@@ -1,0 +1,16 @@
+.container {
+  display: flex;
+  justify-content: flex-end;
+  /* flex-start (기본값)
+     flex-end
+     center
+     space-between
+     space-around
+     space-evenly */
+}
+.item {
+  background: #2e74b5;
+  color: #fff;
+  padding: 10px 18px;
+  font-weight: 700;
+}

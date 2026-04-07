@@ -1,0 +1,29 @@
+.parent {
+  position: relative;
+  height: 160px;
+  background: #f0f4ff;
+}
+.box-a {
+  width: 100px;
+  background: #2e74b5;
+  color: #fff;
+  padding: 8px;
+}
+.box-b {
+  position: relative;
+  top: 10px;
+  left: 30px;
+  width: 100px;
+  background: #e67e22;
+  color: #fff;
+  padding: 8px;
+}
+.box-c {
+  position: absolute;
+  bottom: 10px;
+  right: 10px;
+  width: 100px;
+  background: #6aab6a;
+  color: #fff;
+  padding: 8px;
+}

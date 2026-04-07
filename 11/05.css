@@ -1,0 +1,10 @@
+.container {
+  display: flex;
+}
+
+.item {
+  background: #2e74b5;
+  color: #fff;
+  padding: 16px 24px;
+  font-weight: 700;
+}

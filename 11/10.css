@@ -1,0 +1,18 @@
+.container {
+  display: flex;
+  gap: 6px;
+}
+.a {
+  flex-grow: 1;
+  background: #2e74b5;
+  color: #fff;
+  padding: 10px;
+  font-weight: 700;
+}
+.b {
+  flex-grow: 2;
+  background: #e67e22;
+  color: #fff;
+  padding: 10px;
+  font-weight: 700;
+}

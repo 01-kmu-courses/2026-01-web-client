@@ -1,0 +1,13 @@
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  /* gap: 세로 가로 */
+  /* row-gap / column-gap */
+}
+.item {
+  background: #e67e22;
+  color: #fff;
+  padding: 10px 18px;
+  font-weight: 700;
+}

@@ -1,0 +1,21 @@
+.container {
+  display: flex;
+  gap: 6px;
+  width: 300px;
+}
+.sidebar {
+  width: 150px;
+  flex-shrink: 0; /* 절대 안 줄어듦 */
+  background: #6aab6a;
+  color: #fff;
+  padding: 10px;
+  font-weight: 700;
+}
+.main {
+  flex: 1;
+  flex-shrink: 1; /* 기본값 */
+  background: #9b4dca;
+  color: #fff;
+  padding: 10px;
+  font-weight: 700;
+}

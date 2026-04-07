@@ -1,0 +1,25 @@
+.wrap {
+  position: relative;
+  height: 160px;
+}
+.box-a {
+  position: absolute;
+  top: 20px; left: 20px;
+  width: 110px; height: 90px;
+  background: #2e74b5;
+  z-index: 1;
+}
+.box-b {
+  position: absolute;
+  top: 50px; left: 60px;
+  width: 110px; height: 90px;
+  background: #e67e22;
+  z-index: 2;
+}
+.box-c {
+  position: absolute;
+  top: 30px; left: 120px;
+  width: 110px; height: 90px;
+  background: #6aab6a;
+  z-index: 3;
+}
