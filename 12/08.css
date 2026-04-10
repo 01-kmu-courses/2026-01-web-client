@@ -1,0 +1,26 @@
+.button {
+  background: #2e74b5;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 6px;
+  border: none;
+
+  /* 속성 시간 타이밍 */
+  transition: background 0.3s ease;
+
+  /* 여러 속성 */
+  transition: background 0.3s ease,
+              transform 0.2s ease;
+
+  /* 모든 속성 */
+  transition: all 0.3s ease;
+}
+
+.button:hover {
+  background: #1f3864;
+  transform: scale(1.05);
+}
+
+/* 타이밍 함수 */
+/* ease / linear / ease-in
+   ease-out / ease-in-out */

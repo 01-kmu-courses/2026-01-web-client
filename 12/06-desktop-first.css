@@ -1,0 +1,27 @@
+* { box-sizing: border-box; margin: 0; padding: 0; }
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  padding: 16px;
+  background: #f0f4ff;
+}
+.card {
+  background: #2e74b5;
+  color: #fff;
+  padding: 20px;
+  border-radius: 8px;
+  font-weight: 700;
+}
+/* 기본: PC */
+.card { width: calc(25% - 12px); }
+
+/* 태블릿 이하 */
+@media (max-width: 1023px) {
+  .card { width: calc(50% - 8px); }
+}
+
+/* 모바일 이하 */
+@media (max-width: 767px) {
+  .card { width: 100%; }
+}

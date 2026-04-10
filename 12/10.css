@@ -1,0 +1,16 @@
+img {
+  width: 200px;
+  height: 200px;
+
+  object-fit: fill;    /* 비율 무시하고 꽉 채움 */
+  object-fit: contain; /* 비율 유지, 여백 생김 */
+  object-fit: cover;   /* 비율 유지, 잘릴 수 있음 */
+  object-fit: none;    /* 원본 크기 그대로 */
+}
+
+/* 이미지 위치 조정 */
+img {
+  object-fit: cover;
+  object-position: center top;
+  object-position: 50% 20%;
+}

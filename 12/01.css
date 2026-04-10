@@ -1,0 +1,21 @@
+.container {
+  display: grid;
+
+  /* 열 3개: 각 1:1:1 비율 */
+  grid-template-columns: 1fr 1fr 1fr;
+
+  /* repeat으로 축약 */
+  grid-template-columns: repeat(3, 1fr);
+
+  /* 행 높이 지정 */
+  grid-template-rows: 100px 200px;
+
+  /* 간격 */
+  gap: 16px;
+}
+.item {
+  background: #2e74b5;
+  color: #fff;
+  padding: 16px;
+  font-weight: 700;
+}

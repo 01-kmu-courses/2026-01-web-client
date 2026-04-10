@@ -1,0 +1,23 @@
+/* 전역 변수 선언 */
+:root {
+  --primary: #1f3864;
+  --accent: #2e74b5;
+  --radius: 8px;
+  --spacing: 16px;
+}
+
+.header {
+  background: var(--primary);
+  padding: var(--spacing);
+}
+h1 { color: var(--primary, #000); }
+
+/* 특정 요소 안에서만 사용 */
+button {
+  --btn-color: #e74c3c;
+  background: var(--btn-color);
+  border-radius: var(--radius);
+  color: #fff;
+  padding: 10px var(--spacing);
+  border: none;
+}

@@ -1,0 +1,25 @@
+/* 컨테이너: 틀 정의 */
+.container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 80px);
+  gap: 8px;
+}
+
+/* 아이템: 특정 위치 지정 */
+.header {
+  grid-column: 1 / 4; /* 1번 선 ~ 4번 선 (열 3개 전부) */
+  background: #1f3864; color: #fff;
+}
+.sidebar {
+  grid-row: 2 / 4; /* 행 2~3 차지 */
+  background: #6aab6a; color: #fff;
+}
+.main {
+  grid-column: 2 / 4;
+  background: #9b4dca; color: #fff;
+}
+.footer {
+  grid-column: 2 / 4;
+  background: #e67e22; color: #fff;
+}
